@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(6, 6, 56);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(25, 64, 100);
+    text-align: center;
+    padding: 2rem;
+}
+
+header a {
+    color: rgb(66, 211, 221);
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.home-content div {
+    display: inline-block;
+    width: 60%;
+}
+
+.home-content img {
+    width: 38%;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+}
