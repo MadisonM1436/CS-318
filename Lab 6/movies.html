@@ -9,29 +9,39 @@
 <body>
     <header>
         <h1>My Favorite Movies</h1>
-        <nav>
+        <nav aria-label="Main Navigation">
             <a href="index.html">Home</a>
             <a href="movies.html">Movies</a>
-            <a href="tvshows.html">Tv Shows</a>
+            <a href="tvshows.html">TV Shows</a>
         </nav>
     </header>
-    <main>
-        <h2>Inception</h2>
-        <p>A mind-bending thriller by Christopher Nolan</p>
-        <img src="images/Inception.png" alt="The Spinning Top">
-        
-    <h2>Spirited Away</h2>
-    <p>An enchanting animated film by Studio Ghibli.</p>
-    <img src="images/Spirited Away.avif" alt="Spirited Away Train Scene">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YoHD9XEInc0" title="Inception Trailer" frameborder="0" allowfullscreen></iframe>
-  </main>
-  <footer>
-    <p>&copy; 2025 My Movie and TV Picks</p>
-  </footer>
-</body>
-</html>
+    <main>
+        <section>
+            <h2>Inception</h2>
+            <p>A mind-bending thriller by Christopher Nolan.</p>
+            <img src="images/Inception.png" alt="Inception movie poster featuring a spinning top">
+        </section>
+
+        <section>
+            <h2>Spirited Away</h2>
+            <p>An enchanting animated film by Studio Ghibli.</p>
+            <picture>
+                <source srcset="images/Spirited Away.avif" type="image/avif">
+                <img src="images/Spirited Away.jpg" alt="Spirited Away Train Scene">
+            </picture>
+        </section>
+
+        <section>
+            <h3>Inception Trailer</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YoHD9XEInc0" 
+                title="Inception Trailer" frameborder="0" allowfullscreen>
+            </iframe>
+        </section>
     </main>
-    
+
+    <footer>
+        <p>&copy; 2025 My Movie and TV Picks</p>
+    </footer>
 </body>
 </html>
