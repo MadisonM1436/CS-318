@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0e8;
+    color: #fff;
+  }
+  
+
+  header {
+    background-color: #2f2a27;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  nav a {
+    color: #e0bb57;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .our-story {
+    background-color: #18464a;
+    padding: 2em;
+    margin: 2em;
+    border: 10px solid #2f2a27;
+  }
+  .our-story h2 {
+    color: #e0bb57;
+    margin-bottom: 0.5em;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em;
+  }
+  .gallery img {
+    width: 30%;
+    border: 5px solid #2f2a27;
+  }
+
+  .menu {
+    background-color: #2f2a27;
+    padding: 2em;
+    color: #fff;
+  }
+  .menu h2 {
+    text-align: center;
+    color: #e0bb57;
+    margin-bottom: 1em;
+  }
+  
+  .menu-columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-category {
+    background-color: #18464a;
+    padding: 1em;
+    width: 30%;
+    box-shadow: 8px 8px 0 #000;
+  }
+  .menu-category h3 {
+    color: #e0bb57;
+    margin-bottom: 0.5em;
+  }
+  .menu-category ul {
+    list-style: none;
+  }
+  .menu-category li {
+    margin-bottom: 0.8em;
+  }
+  
+  footer {
+    background-color: #2f2a27;
+    color: #e0bb57;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .footer-logo img {
+    height: 40px;
+  }
+  .contact-info p {
+    margin: 0.3em 0;
+  }
+  
