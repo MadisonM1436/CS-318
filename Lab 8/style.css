@@ -46,7 +46,8 @@ section > h2 {
     text-shadow: 2px 2px 2px #27213C;
     margin: 0;
     border-bottom: 2rem solid #e2512d;
-    /*Missing position:relative; This will position the ^ based on the H2. */
+    position: relative;
+   
 }
 
 section {
@@ -103,7 +104,7 @@ span.rotate {
     transform: rotate(90deg);
     z-index: 1;
     top: 50%;
-    right: 1rem;/*Should be -5rem*/
+    right: -5rem;
 }
 
 @media (min-width: 1000px) {

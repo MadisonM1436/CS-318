@@ -87,7 +87,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover {
     background-color: black;
-    border-color: red;/*This should be color:yellowgreen;*/
+    border-color: yellowgreen;
 }
 
 input[type="reset"]:hover {
