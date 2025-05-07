@@ -56,7 +56,7 @@ header a:hover {
 }
 
 .rover:after {
-  content: url('Dish.svg'); 
+  content: url('Dish.svg'); /*Should be 'Images/Dish.svg' */
   width: 6rem;
   height: 6rem;
   position: absolute;
