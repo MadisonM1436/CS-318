@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #0e1b25;
+  color: #f8ecc2;
+}
+
+header {
+  background-color: #e2b424;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #1c1c1c;
+}
+
+footer {
+  background-color: #fdf5c9;
+  text-align: center;
+  padding: 1rem;
+  color: #0d1b22;
+  font-size: 0.9rem;
+}
+
+.full-page-image {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.full-page-image img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+main.home-background {
+  background-image: url("images/Home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+main.my-hive-section {
+  background-image: url("images/my-hive.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.hex-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.hexagon {
+  width: 100px;
+  height: 110px;
+  background: #f1b400;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0d1b22;
+}
+
+.center-bee {
+  text-align: center;
+  margin: 1rem;
+}
+
+.center-bee .tagline {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #fdf5c9;
+}
+
+.bee-hex img {
+  width: 120px;
+  height: auto;
+}
+
+.customize-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #fdf5c9;
+  color: #0d1b22;
+  border: 2px solid #f1b400;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.my-hive-background {
+  background-image: url("images/my-hive.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.home-background {
+  background-image: url("images/Home.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.hive-connect-background {
+  background-image: url("images/HiveConnect.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.exchange-background {
+  background-image: url("images/Exchanges.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.events-background {
+  background-image: url("images/Events.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.discover-background {
+  background-image: url("images/Discover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
